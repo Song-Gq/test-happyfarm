@@ -1,3 +1,5 @@
+package test;
+
 import foobar.tool.toolkit.command.*;
 import foobar.tool.toolkit.*;
 

@@ -1,3 +1,5 @@
+package test;
+
 import foobar.building.BuildingDirector;
 import foobar.building.Farm;
 import foobar.building.Pasture;

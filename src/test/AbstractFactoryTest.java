@@ -1,3 +1,5 @@
+package test;
+
 import foobar.plant.consumable.factory.*;
 import foobar.plant.consumable.item.Pesticide;
 import foobar.plant.consumable.item.Fertilizer;

@@ -1,3 +1,5 @@
+package test;
+
 import foobar.animal.animal_base.*;
 import foobar.animal.factory.*;
 

@@ -10,10 +10,12 @@ import foobar.tool.building_tool.DigTool;
  */
 public class TemplateMethodTest {
     public static void main(String[] args){
+        //Create template method tool object
         DigTool digTool = new DigTool();
-        digTool = (DigTool) digTool.replaceByNewOne();
-
         WeedTool weedTool = new WeedTool();
+
+
+        digTool = (DigTool) digTool.replaceByNewOne();
         weedTool = (WeedTool) weedTool.replaceByNewOne();
     }
 }

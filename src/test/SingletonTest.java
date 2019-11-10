@@ -1,3 +1,5 @@
+package test;
+
 import foobar.plant.plant_profile.*;
 public class SingletonTest{
     //测试单例模式
