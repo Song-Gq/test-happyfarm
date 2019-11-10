@@ -7,7 +7,9 @@ import foobar.tool.agriculture_tool.*;
 import foobar.tool.building_tool.DigTool;
 
 /**
- * Visitor Design Pattern Test Use Case
+ * Visitor Design Pattern Test Use Case.
+ * Visitor should be one to multiple
+ * Acceptor should be multiple to one.
  * @author Leepaangsang
  * @version 2019/11/7
  */
@@ -46,7 +48,7 @@ public class VisitorTest {
         FertilizationTool fertilizationTool = new FertilizationTool();
         //basePlant.accept(fertilizationTool);
 
-        //Test DigTool Visitor()
+        //Test DigTool Visitor(It is not meet the description)
         System.out.println("Test DigTool Visitor");
         DigTool digTool = new DigTool();
         basePlant.accept(digTool);
