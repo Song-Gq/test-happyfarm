@@ -4,7 +4,7 @@ import foobar.interpretor.Context;
 import foobar.interpretor.ElementExpression;
 import foobar.interpretor.ReadXmlExpression;
 
-public class InterpretorTest {
+public class InterpreterTest {
     public static void main(String[] args) throws Exception {
         Context mesg=new Context ("D:\\java_demo\\11\\foobar\\interpretor\\Interperter.xml");
         String result="";
