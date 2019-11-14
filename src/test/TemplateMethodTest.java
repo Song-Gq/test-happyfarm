@@ -16,12 +16,16 @@ public class TemplateMethodTest {
         System.out.println(digTool);
         digTool = (DigTool) digTool.replaceByNewOne();
         System.out.println(digTool);
+        digTool = digTool.clone();
+        System.out.println(digTool);
 
         //Test WeedTool
         System.out.println("-------------------------------------Test WeedTool--------------------------------------");
         WeedTool weedTool = new WeedTool();
         System.out.println(weedTool);
         weedTool = (WeedTool) weedTool.replaceByNewOne();
+        System.out.println(weedTool);
+        weedTool = weedTool.clone();
         System.out.println(weedTool);
 
         //Test WaterTool
@@ -30,12 +34,16 @@ public class TemplateMethodTest {
         System.out.println(waterTool);
         weedTool = (WeedTool) weedTool.replaceByNewOne();
         System.out.println(waterTool);
+        waterTool = waterTool.clone();
+        System.out.println(waterTool);
 
         //Test FertilizationTool
         System.out.println("-------------------------------------Test FertilizationTool--------------------------------------");
         FertilizationTool fertilizationTool = new FertilizationTool();
         System.out.println(fertilizationTool);
         fertilizationTool = (FertilizationTool) fertilizationTool.replaceByNewOne();
+        System.out.println(fertilizationTool);
+        fertilizationTool.clone();
         System.out.println(fertilizationTool);
 
         //Test PesticideTool
@@ -44,6 +52,8 @@ public class TemplateMethodTest {
         System.out.println(pesticideTool);
         pesticideTool = (PesticideTool) pesticideTool.replaceByNewOne();
         System.out.println(pesticideTool);
+        pesticideTool = pesticideTool.clone();
+        System.out.println(pesticideTool);
 
         //Test BaseDecorator
         System.out.println("-------------------------------------Test BaseDecorator--------------------------------------");
@@ -51,12 +61,16 @@ public class TemplateMethodTest {
         System.out.println(baseDecorator);
         baseDecorator = (BaseDecorator) baseDecorator.replaceByNewOne();
         System.out.println(baseDecorator);
+        baseDecorator = baseDecorator.clone();
+        System.out.println(baseDecorator);
 
         //Test WeedDecorator
         System.out.println("-------------------------------------Test WeedDecorator--------------------------------------");
         WeedDecorator weedDecorator = new WeedDecorator();
         System.out.println(weedDecorator);
         weedDecorator = (WeedDecorator) weedDecorator.replaceByNewOne();
+        System.out.println(weedDecorator);
+        weedDecorator = weedDecorator.clone();
         System.out.println(weedDecorator);
 
     }

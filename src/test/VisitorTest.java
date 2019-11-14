@@ -62,9 +62,10 @@ public class VisitorTest {
         //Test FertilizationTool Visitor(Exception)
         System.out.println("-------------------------------------Test FertilizationTool Visitor-----------------------------");
         FertilizationTool fertilizationTool = new FertilizationTool();
-        //basePlant.accept(fertilizationTool);
         field.accept(fertilizationTool);
         tile.accept(fertilizationTool);
+        basePlant.accept(fertilizationTool);
+
 
         //Test DigTool Visitor(It is not meet the description)
         System.out.println("-------------------------------------Test DigTool Visitor---------------------------------------");
