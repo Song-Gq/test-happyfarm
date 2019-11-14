@@ -5,8 +5,8 @@ import foobar.animal.color.Black;
 import foobar.animal.color.Green;
 import foobar.animal.factory.ChickenFactory;
 import foobar.plant.consumable.effect.*;
-import foobar.plant.consumable.item.JinF;
-import foobar.plant.consumable.item.JinP;
+import foobar.plant.consumable.item.ShiF;
+import foobar.plant.consumable.item.ShiP;
 
 /**
  * @Author Zhang Dongya
@@ -22,8 +22,8 @@ public class BridgeTest {
         BonusEffect effect2=new AddN();
         BonusEffect effect3=new Anamnesis();
 
-        JinF fertilizer=new JinF("shi dan li", 500, "hhh", effectF);// buy fertilizer
-        JinP pesticide =new JinP("ShiDanLi", 600, "kill pest", effectP);// buy pesticide
+        ShiF fertilizer=new ShiF("shi dan li", 500, "hhh", effectF);// buy fertilizer
+        ShiP pesticide =new ShiP("ShiDanLi", 600, "kill pest", effectP);// buy pesticide
 
         fertilizer.addEffect(effect1);// add bonus effect fertilizer
         fertilizer.addEffect(effect2);
